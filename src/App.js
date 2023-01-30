@@ -1,14 +1,14 @@
 import './App.css';
-import "./components/NavBar"
-import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import "./components/NavBar/NavBar"
+import NavBar from './components/NavBar/NavBar';
 
 
 function App() {
   return (
     <div className="App">
         <NavBar />
-      <header className="App-header">
-      </header>
+        <ItemListContainer greeting={"Bienvenidos a MundoGamer"} />
     </div>
   );
 }

@@ -1,0 +1,12 @@
+.greeting {
+    margin: auto;
+    color: white;
+}
+
+.main-container {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 43, 73);
+}
