@@ -1,22 +1,31 @@
 .nav {
     display: flex;
+    align-items: center;
     list-style-type: none;
-    margin-bottom: 2rem;
-    margin-right: 3rem;
-    color: beige;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    background-color: #4d70b1;
+    border: solid 4px rgb(32, 32, 32);
+    
 }
-
-
 
 .LinkedWord1 {
     text-decoration: none;
-    color: beige;
+    color: white;
+    font-size: 15px;
     margin-right: 3rem;
-    margin-bottom: 10rem;
 }
 
 .LinkedWord2 {
     text-decoration: none;
-    color: beige;
-    margin-bottom: 10rem;
+    font-size: 15px;
+    color: white;
+}
+
+.Word1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5rem;
 }
