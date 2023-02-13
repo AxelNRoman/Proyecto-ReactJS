@@ -3,20 +3,33 @@
     align-items: center;
     justify-content: space-between;
     list-style-type: none;
-    background-color: #4d70b1;
+    background-color: rgba(76, 160, 216, 0.788);
     padding: 0 0.5rem !important;
     height: max-content !important;
     margin: 0 !important;
 }
 
+.navbar_decoration {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.645);
+}
+
 .LinkedWord {
     text-decoration: none;
+    background-color: transparent;
+    border: 0;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: -0.5rem;
     margin-right: -3rem;
     margin-left: -30rem;
 }
+
+.LinkedWord:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
 
 .Word1 {
     text-decoration: none;
@@ -31,4 +44,11 @@
     align-items: center;
     width: 50%;
     justify-content: space-between;
+}
+
+.carrito {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
 }
