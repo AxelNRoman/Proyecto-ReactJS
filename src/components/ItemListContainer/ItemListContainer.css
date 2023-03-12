@@ -2,16 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 3rem;
-    font-size: 50px;
-    color: rgb(194, 192, 196);
 }
 
-.uiball_loader{
+.uiball_loader {
     height: 93vh;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.itemList_container {
+    margin: 6rem auto 17rem auto;
 }

@@ -1,0 +1,103 @@
+.cart_center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cart_container {
+    height: max-content;
+    width: 70%;
+    background-color: rgba(41, 141, 172, 0.282);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.258);
+    border: 1px solid rgba(0, 0, 0, 0.057);
+    border-radius: 5px;
+    margin: 4rem auto 4rem auto;
+}
+
+.cart_tittle {
+    margin-top: 2rem;
+    font-size: 2.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cart_footer {
+    margin: 2rem 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.p {
+    margin: 0;
+}
+
+.cart_price {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.741);
+}
+
+.cart_footer-cleanBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: rgba(23, 24, 24, 0.733);
+    border: 1px solid rgba(0, 0, 0, 0.166);
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+    background-color: rgba(161, 78, 75, 0.254);
+    transition: all .12s ease-in-out;
+}
+
+.cart_footer-cleanBtn:hover {
+    background-color: rgba(0, 255, 255, 0.461);
+    color: rgba(40, 41, 41, 0.825);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.504);
+}
+
+.cart_footer-btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.618);
+    border: 1px solid rgba(0, 0, 0, 0.166);
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    background-color: rgba(37, 37, 37, 0.254);
+    transition: all .12s ease-in-out;
+}
+
+.cart_footer-btn:hover {
+    background-color: rgba(37, 37, 37, 0.33);
+    color: rgba(40, 221, 167, 0.825);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.504);
+}
+
+
+.cart-tittle--alt {
+    font-size: 2.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3rem 0 4rem 0;
+    text-align: center;
+}
+
+.cart_container--alt {
+    height: max-content;
+    width: 50%;
+    background-color: rgba(37, 197, 202, 0.282);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.258);
+    border: 1px solid rgba(0, 0, 0, 0.057);
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+
+.cart-text {
+    color: rgba(0, 0, 0, 0.16);
+}
+
+.cart-qantity {
+    color: black;
+}

@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(100, 121, 138, 0.808);
+    background-color: rgba(57, 123, 199, 0.493);
     border: 1px solid rgba(0, 0, 0, 0.115);
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.34);
@@ -34,23 +34,20 @@
 }
 
 .detail_content-name {
-    margin-bottom: 6rem;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
 }
 
 .detail_content-description {
-    font-size: 1.8rem;
-    color: rgb(15, 15, 15);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.588);
 }
 
 .detail_content-price {
     margin: 6rem;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
     color: rgba(0, 0, 0, 0.637);
-}
-
-.detail_content-counter {
-    margin-bottom: 3rem;
 }

@@ -1,6 +1,5 @@
 import Item from "../Item/Item"
 import "./ItemList.css"
-import "../Products/Products"
 
 const ItemList = ({ products }) => {
     return (
