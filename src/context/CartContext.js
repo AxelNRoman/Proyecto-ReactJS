@@ -1,5 +1,5 @@
 import { useState, createContext, useEffect } from "react";
-import Swal from "sweetalert";
+import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom"
 
 export const CartContext = createContext({
